@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.flex-container {
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: space-around; 
+    gap: 15px; 
+    margin-top: 120px;
+}
+
+.container {
+    width: 360px;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #9c8f8f;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+
+.red {
+    color: red;
+        
+}
+
+body {
+    overflow: hidden;
+}
+
+.left-image1, .right-image2 {
+    flex: 0 0 auto; 
+}
+
+.left-image1 {
+    width: 300px; 
+    height: 300px;
+}
+
+.right-image2 {
+    width: 300px; 
+    height: 300px;
+}
